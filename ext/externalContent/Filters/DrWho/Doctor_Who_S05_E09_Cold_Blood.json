@@ -1,0 +1,491 @@
+{
+	"creation_date": "2014-12-25T05:10:19.984Z",
+	"title": "DrWhoS5E9 Cold Blood",
+	"filename": "DrWhoS5E9 Cold Blood",
+	"url": "http://www.netflix.com/WiPlayer?movieid=70174750&trkid=13462100&tctx=-99%2C-99%2Cf0a451e0-4529-4f9c-b2ff-a6804211de15-7802279",
+	"profanity_list": [
+		{
+			"start": 127.784655,
+			"stop": 133.357415,
+			"type": "bad",
+			"text": "h...o, dad."
+		},
+		{
+			"start": 782.16601,
+			"stop": 787.042175,
+			"type": "bad",
+			"text": "i have an army and the breath of g... on my side, doctor."
+		},
+		{
+			"start": 88.978758,
+			"stop": 93.715604,
+			"type": "bad",
+			"text": "-what? -what the h... is this place?!"
+		},
+		{
+			"start": 156.687792,
+			"stop": 162.678509,
+			"type": "bad",
+			"text": "is it nerys? oh, m.... she´s finally got me back."
+		},
+		{
+			"start": 162.678509,
+			"stop": 168.669226,
+			"type": "bad",
+			"text": "-who the h... is nerys? -your best friend."
+		},
+		{
+			"start": 505.124617,
+			"stop": 506.517807,
+			"type": "bad",
+			"text": "oh, m.... have you got any money?"
+		},
+		{
+			"start": 573.808884,
+			"stop": 575.75935,
+			"type": "bad",
+			"text": "h...o? hello?"
+		},
+		{
+			"start": 694.459138,
+			"stop": 697.245518,
+			"type": "bad",
+			"text": "what the h... are you doing? i´m late for the wedding."
+		},
+		{
+			"start": 1228.190227,
+			"stop": 1231.812521,
+			"type": "bad",
+			"text": "h...o. i´m the doctor."
+		},
+		{
+			"start": 1424.072741,
+			"stop": 1428.252311,
+			"type": "bad",
+			"text": "oh, m.... it´s all my family."
+		},
+		{
+			"start": 1736.425939,
+			"stop": 1736.565258,
+			"type": "bad",
+			"text": "what the h... are we talking about?"
+		},
+		{
+			"start": 1868.500351,
+			"stop": 1871.565369,
+			"type": "bad",
+			"text": "what the h... are we gonna do?"
+		},
+		{
+			"start": 1963.515909,
+			"stop": 1970.899816,
+			"type": "bad",
+			"text": "oh, m...!"
+		},
+		{
+			"start": 2247.308712,
+			"stop": 2249.816454,
+			"type": "bad",
+			"text": "g..., she´s thick."
+		},
+		{
+			"start": 434.009516,
+			"stop": 436.099301,
+			"type": "bad",
+			"text": "what the h... was that?"
+		},
+		{
+			"start": 508.405864,
+			"stop": 514.257262,
+			"type": "bad",
+			"text": "oh, m...."
+		},
+		{
+			"start": 2232.47849,
+			"stop": 2238.469207,
+			"type": "bad",
+			"text": "oh, m..., i´ve been a mess. but what happened?"
+		},
+		{
+			"start": 2312.447596,
+			"stop": 2316.487847,
+			"type": "bad",
+			"text": "-this is me putting my foot down. -g... knows you´ve been doing it for the last 25 years!"
+		},
+		{
+			"start": 1416.945298,
+			"stop": 1421.403506,
+			"type": "bad",
+			"text": "does m... doctor wish some entertainment while he waits?"
+		},
+		{
+			"start": 1426.140352,
+			"stop": 1427.533542,
+			"type": "bad",
+			"text": "wait here, m...s, while i..."
+		},
+		{
+			"start": 1941.89929,
+			"stop": 1944.128394,
+			"type": "bad",
+			"text": "oh, m.... am i going to fade?"
+		},
+		{
+			"start": 730.008625,
+			"stop": 733.770238,
+			"type": "bad",
+			"text": "h...o."
+		},
+		{
+			"start": 1318.492082,
+			"stop": 1324.482799,
+			"type": "bad",
+			"text": "who the h... are you?"
+		},
+		{
+			"start": 1402.640758,
+			"stop": 1406.263052,
+			"type": "bad",
+			"text": "what the h... is that?"
+		},
+		{
+			"start": 2297.486695,
+			"stop": 2301.944903,
+			"type": "bad",
+			"text": "come say h...o."
+		},
+		{
+			"start": 550.542614,
+			"stop": 555.836736,
+			"type": "bad",
+			"text": "- must be a h... of a scary crack in your wall."
+		},
+		{
+			"start": 1708.84078,
+			"stop": 1714.552859,
+			"type": "bad",
+			"text": "h...o, amy, dear. are you a policewoman now?"
+		},
+		{
+			"start": 2344.692698,
+			"stop": 2350.683415,
+			"type": "bad",
+			"text": "- h...o! laptop, gimme! - no, no, no, no, wait."
+		},
+		{
+			"start": 2614.971562,
+			"stop": 2620.962279,
+			"type": "bad",
+			"text": "- oh, m...! - [snarling]"
+		},
+		{
+			"start": 205.913866,
+			"stop": 211.904583,
+			"type": "bad",
+			"text": "- i've extended the air sh.... we're fine."
+		},
+		{
+			"start": 338.824192,
+			"stop": 344.118314,
+			"type": "bad",
+			"text": "- oh, m...! i'm in my nightie."
+		},
+		{
+			"start": 1010.759729,
+			"stop": 1012.849514,
+			"type": "bad",
+			"text": "may g... have mercy on our souls."
+		},
+		{
+			"start": 1316.704253,
+			"stop": 1322.973608,
+			"type": "bad",
+			"text": "- oh, g..., it stinks! - oh, that's not the pipe."
+		},
+		{
+			"start": 1539.196696,
+			"stop": 1545.187413,
+			"type": "bad",
+			"text": "g... save the queen."
+		},
+		{
+			"start": 2359.22833,
+			"stop": 2362.154029,
+			"type": "bad",
+			"text": "- h...o! [phone rings]"
+		},
+		{
+			"start": 2412.866145,
+			"stop": 2416.209801,
+			"type": "bad",
+			"text": "winston churchill for you. - oh! h...o, dear."
+		},
+		{
+			"start": 217.269389,
+			"stop": 223.260106,
+			"type": "bad",
+			"text": "- wow. m...."
+		},
+		{
+			"start": 521.960042,
+			"stop": 527.950759,
+			"type": "bad",
+			"text": "- if hitler invaded h..., i would give"
+		},
+		{
+			"start": 1146.805758,
+			"stop": 1152.796475,
+			"type": "bad",
+			"text": "- oh, g.... we must have something."
+		},
+		{
+			"start": 161.029904,
+			"stop": 161.308542,
+			"type": "bad",
+			"text": "- \"h...o, sweetie!\""
+		},
+		{
+			"start": 1752.331522,
+			"stop": 1758.322239,
+			"type": "bad",
+			"text": "- are we there yet? it's a h... of a climb."
+		},
+		{
+			"start": 1891.92916,
+			"stop": 1895.690773,
+			"type": "bad",
+			"text": "- oh, m...! they've moved."
+		},
+		{
+			"start": 2322.842827,
+			"stop": 2328.833544,
+			"type": "bad",
+			"text": "- h...o, angels. what's your problem?"
+		},
+		{
+			"start": 308.384015,
+			"stop": 309.777205,
+			"type": "bad",
+			"text": "g... be with us all."
+		},
+		{
+			"start": 520.706171,
+			"stop": 526.696888,
+			"type": "bad",
+			"text": "- doctor? excuse me. h...o, doctor?"
+		},
+		{
+			"start": 605.690761,
+			"stop": 610.427607,
+			"type": "bad",
+			"text": "dear g..., what is it?"
+		},
+		{
+			"start": 1565.73799,
+			"stop": 1571.589388,
+			"type": "bad",
+			"text": "for that, i thank g..."
+		},
+		{
+			"start": 1613.663726,
+			"stop": 1618.400572,
+			"type": "bad",
+			"text": "- h...o, are you there?"
+		},
+		{
+			"start": 1618.400572,
+			"stop": 1625.784479,
+			"type": "bad",
+			"text": "- h...o? - i'm here, i'm fine."
+		},
+		{
+			"start": 1637.765913,
+			"stop": 1643.75663,
+			"type": "bad",
+			"text": "h...o? hello?!"
+		},
+		{
+			"start": 1643.75663,
+			"stop": 1646.125053,
+			"type": "bad",
+			"text": "h...o?"
+		},
+		{
+			"start": 1646.125053,
+			"stop": 1649.747347,
+			"type": "bad",
+			"text": "please say you're there. h...o? hello!"
+		},
+		{
+			"start": 118.631537,
+			"stop": 124.622254,
+			"type": "bad",
+			"text": "it's me! h...o! how are you?"
+		},
+		{
+			"start": 959.139393,
+			"stop": -1,
+			"type": "bad",
+			"text": "uh, this whole thingis mental! they're vampires,for g...'s sake!"
+		},
+		{
+			"start": 959.139393,
+			"stop": -1,
+			"type": "bad",
+			"text": "uh, this whole thingis mental! they're vampires,for g...'s sake!"
+		},
+		{
+			"start": 959.139393,
+			"stop": 965.13011,
+			"type": "bad",
+			"text": "uh, this whole thingis mental! they're vampires,for g...'s sake!"
+		},
+		{
+			"start": 1091.353124,
+			"stop": 1097.343841,
+			"type": "bad",
+			"text": "hey. h...o."
+		},
+		{
+			"start": 1871.121567,
+			"stop": -1,
+			"type": "bad",
+			"text": "i will bend the h...to save my race,while you philosophise."
+		},
+		{
+			"start": 1871.121567,
+			"stop": -1,
+			"type": "bad",
+			"text": "i will bend the h...to save my race,while you philosophise."
+		},
+		{
+			"start": 1871.121567,
+			"stop": 1878.087517,
+			"type": "bad",
+			"text": "i will bend the h...to save my race,while you philosophise."
+		},
+		{
+			"start": 2010.161929,
+			"stop": -1,
+			"type": "bad",
+			"text": "she said, \"i shallbend the h...to save my race.\""
+		},
+		{
+			"start": 2010.161929,
+			"stop": -1,
+			"type": "bad",
+			"text": "she said, \"i shallbend the h...to save my race.\""
+		},
+		{
+			"start": 2010.161929,
+			"stop": 2016.152646,
+			"type": "bad",
+			"text": "she said, \"i shallbend the h...to save my race.\""
+		},
+		{
+			"start": 2016.152646,
+			"stop": 2022.143363,
+			"type": "bad",
+			"text": "bend the h......"
+		},
+		{
+			"start": 218.731204,
+			"stop": -1,
+			"type": "bad",
+			"text": "oh, thank g...,i had a terriblenightmare about you two."
+		},
+		{
+			"start": 218.731204,
+			"stop": -1,
+			"type": "bad",
+			"text": "oh, thank g...,i had a terriblenightmare about you two."
+		},
+		{
+			"start": 218.731204,
+			"stop": 224.721921,
+			"type": "bad",
+			"text": "oh, thank g...,i had a terriblenightmare about you two."
+		},
+		{
+			"start": 498.901713,
+			"stop": -1,
+			"type": "bad",
+			"text": "h...o, doctor.hi."
+		},
+		{
+			"start": 498.901713,
+			"stop": 500.016265,
+			"type": "bad",
+			"text": "h...o, doctor.hi."
+		},
+		{
+			"start": 500.016265,
+			"stop": 501.130817,
+			"type": "bad",
+			"text": "h...o."
+		},
+		{
+			"start": 549.056553,
+			"stop": -1,
+			"type": "bad",
+			"text": "h...o, mrs. poggit,how's your hip?"
+		},
+		{
+			"start": 549.056553,
+			"stop": 554.489994,
+			"type": "bad",
+			"text": "h...o, mrs. poggit,how's your hip?"
+		},
+		{
+			"start": 1311.828078,
+			"stop": -1,
+			"type": "bad",
+			"text": "h...o! we were wonderingwhere you went."
+		},
+		{
+			"start": 1311.828078,
+			"stop": 1312.94263,
+			"type": "bad",
+			"text": "h...o! we were wonderingwhere you went."
+		},
+		{
+			"start": 424.737563,
+			"stop": 427.105986,
+			"type": "bad",
+			"text": "that wasn't there last night. how the h... did that get there?"
+		},
+		{
+			"start": 229.766166,
+			"stop": 235.756883,
+			"type": "bad",
+			"text": "oh, m..., no. - what is it?"
+		},
+		{
+			"start": 1010.509846,
+			"stop": 1016.500563,
+			"type": "bad",
+			"text": "oh, m...."
+		},
+		{
+			"start": 1202.770072,
+			"stop": 1208.760789,
+			"type": "bad",
+			"text": "- she's fine, look, here she is. - oh, thank g...."
+		},
+		{
+			"start": 2558.065324,
+			"stop": 2566.424464,
+			"type": "bad",
+			"text": "she's going to give tony h... when they wake up."
+		},
+		{
+			"start": 2611.981777,
+			"stop": 2614.489519,
+			"type": "bad",
+			"text": "oh! hey! look! there i am again! [shouts] h...o, me!"
+		}
+	],
+	"violence_list": [],
+	"immorality_list": [],
+	"immodesty_list": []
+}

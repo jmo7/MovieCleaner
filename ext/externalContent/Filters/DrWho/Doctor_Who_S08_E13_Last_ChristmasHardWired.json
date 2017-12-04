@@ -1,0 +1,35 @@
+var filterJSON = {
+	"creation_date": "2015-09-27T02:38:51.509Z",
+	"title": "Doctor Who S8: E13 “Last Christmas”",
+	"filename": "Doctor_Who_S08:_E13_Last_Christmas",
+	"url": "http://www.netflix.com/watch/80007244?trackId=200257859",
+	"profanity_list": [
+		{
+			"start": 799.929128,
+			"stop": 801.270079,
+			"type": "bad",
+			"text": "who the h... are you?"
+		},
+		{
+			"start": 1905.152941,
+			"stop": 1907.890717,
+			"type": "bad",
+			"text": "you just get the h... on with it."
+		},
+		{
+			"start": 2725.200962,
+			"stop": 2727.994611,
+			"type": "bad",
+			"text": "g... knows where the rest of you are, probably scattered all over the world."
+		},
+		{
+			"start": 2835.661883,
+			"stop": 2838.064421,
+			"type": "bad",
+			"text": "oh, m...!"
+		}
+	],
+	"violence_list": [],
+	"immorality_list": [],
+	"immodesty_list": []
+};

@@ -1,0 +1,459 @@
+@font-face {
+    font-family: "Limelight";
+    src: url("chrome-extension://__MSG_@@extension_id__/fonts/Limelight-Regular.woff") format('woff');
+    src: url("chrome-extension://__MSG_@@extension_id__/fonts/Limelight-Regular.woff2") format('woff2');
+}
+
+
+/*  --------------------------------------------------------------------------------------------  */
+
+.MCContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 50000;
+    pointer-events: none;
+}
+
+.MCContainer html, .MCContainer body, .MCContainer div, .MCContainer span, .MCContainer p,
+.MCContainer h1, .MCContainer h2, .MCContainer h3, .MCContainer h4, .MCContainer pre,
+.MCContainer dl, .MCContainer dt, .MCContainer dd, .MCContainer ol, .MCContainer ul, .MCContainer li,
+.MCContainer fieldset, .MCContainer form, .MCContainer label, .MCContainer legend,
+.MCContainer table, .MCContainer caption, .MCContainer tbody, .MCContainer tfoot, .MCContainer thead, .MCContainer tr, .MCContainer th, .MCContainer td,
+.MCContainer article, .MCContainer aside, .MCContainer canvas, .MCContainer details, .MCContainer figcaption, .MCContainer figure,
+.MCContainer footer, .MCContainer header, .MCContainer hgroup, .MCContainer menu, .MCContainer nav, .MCContainer section, .MCContainer summary,
+.MCContainer time, .MCContainer mark, .MCContainer audio, .MCContainer video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/*  --------------------------------------------------------------------------------------------  */
+
+
+.MCContainer .MCScreenMuter {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 1450;
+    pointer-events: none;
+}
+
+
+.MCContainer .MCScreenMuter.active {
+    display: block;
+}
+
+
+/*  --------------------------------------------------------------------------------------------  */
+
+
+.MCContainer .MCScreenShade {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 0;
+    pointer-events: initial;
+}
+
+
+
+.MCContainer .MCScreenShade.active {
+    display: block;
+}
+
+
+/*  --------------------------------------------------------------------------------------------  */
+
+
+.MCContainer .MCLogoShower {
+    position: fixed;
+    display: none;
+    z-index: 50001;
+    pointer-events: none;
+    border: 2px rgba(0,0,0,.2) solid;
+    border-radius: 5px;
+}
+
+.MCContainer .MCLogoShower.active {
+    display: block;
+}
+
+.MCContainer .MCLogoShower.small {
+    width: 38px;
+    height: 38px;
+    background: rgba(255,255,255,.5) url('') no-repeat 45% 50%;
+}
+
+.MCContainer .MCLogoShower.medium {
+    width: 64px;
+    height: 64px;
+    background: rgba(255,255,255,.5) url('') no-repeat 45% 50%;
+}
+
+.MCContainer .MCLogoShower.large {
+    width: 128px;
+    height: 128px;
+    background: rgba(255,255,255,.5) url('') no-repeat 45% 50%;
+}
+
+.MCContainer .MCLogoShower.topleft {
+    top: 10px;
+    left: 10px;
+}
+
+.MCContainer .MCLogoShower.topright {
+    top: 10px;
+    right: 10px;
+}
+
+.MCContainer .MCLogoShower.bottomleft {
+    bottom: 10px;
+    left: 10px;
+}
+
+.MCContainer .MCLogoShower.bottomright {
+    bottom: 10px;
+    right: 10px;
+}
+
+
+/*  --------------------------------------------------------------------------------------------  */
+
+
+#MCDialog {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    right: -57vmin;
+    transition-property: right;
+    transition-duration: 0.30s;
+    width: 55vmin;
+    max-width: 65vmin;
+    /*height: 66vmin;*/
+    /*max-height:76vmin;*/
+    background-color: white;
+    border: 0.5vmin #457acf solid;
+	border-top: none;
+	border-right: none;
+    border-radius: 0 0 0 2vmin;
+    /*padding: 0 0.5em 0.5em 0.5em;*/
+    color: black;
+    font-size: 2vh;
+    z-index: 100;
+    box-sizing: content-box;
+    pointer-events: initial;
+}
+
+#MCDialog.active {
+    right: 0vmin;
+    transition-property: right;
+    transition-duration: 0.30s;
+}
+
+#MCDialog.extended {
+    /*height: 71vmin;
+    max-height: 81vmin;*/
+}
+
+
+#MCDialog header {
+    height: 6vmin;
+    width: 100%;
+    margin: 0.3em 0.5em 0 0.5em;
+    background-size: 18vmin;
+    margin-bottom: 1vmin;
+}
+
+
+#MCDialog header h2 {
+    font-family: Limelight;
+    font-size: 250%;
+    font-weight: bold;
+    padding: 0.5vmin 0 1vmin 1vmin;
+    margin: 0;
+    color: black;
+
+    text-shadow: 0.15vmin 0.15vmin 0.2vmin rgba(100,100,100,.3);
+    background-size: 25vmin;
+}
+
+
+#MCDialog header .MCCloser {
+    position: absolute;
+	display: table-cell;
+    top: 5px;
+    /*right: 4px;*/
+	right: 0;
+    padding: 0;
+	font-size: 6vmin;
+	line-height: 2vmin;
+	padding-bottom: 5px;
+	/*padding-bottom: 1px;
+	text-align: top;
+	vertical-align: top;*/
+}
+
+#MCDialog .MCLicenseInfoDiv .MCMessage {
+	align-items: center;
+    color: black;
+ 	padding: 0.75em 0.35em  0.75em 0.75em;
+    line-height: 130%;
+	font-weight: bold;
+
+	border-top: 1px #daeffd solid;
+	border-bottom: 1px #aebeca solid;
+    justify-content: space-between;
+	background: linear-gradient(35deg, #bedef5 0%,#bedef5 40%,#7db9e8 100%);
+
+}
+
+
+
+#MCDialog .MCLicenseInfoDiv .MCMessage .MCTextpart {
+	flex: 3;
+	margin-right: 2vmin;
+}
+
+#MCDialog .MCLicenseInfoDiv .MCMessage strong {
+	color: maroon;
+}
+
+#MCDialog .MCDialogBtnBuy {
+ 	flex: 1;
+    margin: 2px 0 2px 0;
+	margin-left: auto;
+	width:  15vmin;
+	/*height:  2vmin;*/
+    color: black;
+    font-weight: bold;
+    text-shadow: 0 0 1px rgba(255, 255, 255, .4);
+    border-radius: 4px;
+    background-color: #b1d58b;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+#MCDialogContent {
+    box-sizing: margin-box;
+    line-height: 1.2em;
+    background-color: #f3f3f3;
+    padding: 0;
+    margin: .5em;
+    border-radius: 5px;
+    /*box-shadow: inset 3px 3px 5px rgba(100, 100, 100, 0.6), inset -3px -3px 5px rgba(100, 100, 100, 0.6);*/
+    overflow: auto;
+    /*flex-grow: 2.6;*/
+    height: 46vmin;
+}
+
+
+#MCDialog .MCRemainingTime {
+	display: block;
+}
+
+
+#MCDialogContent .MCNote {
+    display: block;
+    padding: 0.25em;
+    background-color: rgba(255,0,0,0.1);
+}
+
+#MCDialogContent .MCMessage {
+    line-height: 1.5em;
+    padding: 0.75em 0.75em;
+}
+
+#MCDialogContent .MCMessage.old {
+    display: none;
+    color: gray;
+    border-top: 1px #ccc solid;
+    opacity: 0.8;
+}
+
+#MCDialogContent .MCMessage .MCRunStep {
+    display: block;
+    margin-top: 0.9em;
+	font-size: 120%;
+    font-weight: bold;
+    margin-bottom: 0.5vmin;
+}
+
+#MCDialogContent .MCMessage .MCRunStep:first-of-type {
+    margin-top: 0;
+}
+
+
+#MCDialogContent .MCMessage .MCRunStep, #MCDialogContent .MCMessage .MCStepInstructions {
+    /*padding: 5px;*/
+}
+
+
+#MCDialogContent .MCStepSuccess {
+    background-color: rgba(0,255,0,0.2);
+    width: fit-content;
+    padding: 0 5px;
+}
+
+
+#MCDialogContent .MCStepFailure {
+    background-color: rgba(255,0,0,0.2);
+}
+
+#MCDialogContent .MCMessage .MCStepInstructions {
+    font-size: 90%;
+}
+
+#MCDialogContent .MCMessage .MCStepInstructions.previous {
+    color: #999;
+}
+
+#MCDialogContent .MCMessage .progress {
+    display: inline-block;
+    width: 80%;
+    height: 0.9em;
+    background-color: white;
+}
+
+
+#MCDialogContent .MCMessage progress::-webkit-progress-bar {
+    background: #EEE;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.4) inset;
+    border: 1px #aaa solid;
+    border-radius: 0.2em;
+}
+
+#MCDialogContent .MCMessage progress::-webkit-progress-value {
+    background-color: orange;
+    border-radius: 0.2em;
+    box-shadow: 0 0.2em 0.3em rgba(0,0,0,0.4) inset;
+}
+
+
+#MCDialogContent .MCMessage .MCMessageControls {
+    margin-top: 1vmin;
+}
+
+#MCDialogContent .MCMessage .MCMessageControls button[disabled] {
+    color: gray;
+}
+
+#MCDialog .MCBtnOk + .MCBtnCancel {
+    margin-left: 3vmin;
+}
+
+#MCDialog .vsError {
+    color: red;
+    margin: 0.5em 0;
+}
+
+
+#MCDialog footer {
+    position: relative;
+    display: flex;
+    min-height: 4vmin;
+	align-content: center;
+}
+
+
+#MCDialog #MC_BtnHelp {
+	display: inline-block;
+	height: 15px;
+	width: 10vmin;
+	line-height: 10px;
+	padding-bottom: 10px;
+	margin-left: .5em;
+}
+
+
+#MCDialog #MC_BtnSettings {
+    margin: -.7vmin 0 1vmin auto;
+    border: 0;
+    background-color: transparent;
+}
+
+
+
+.player-control-a11y-button {
+	display: block: !important;
+}
+
+
+#MCD_audioMuteVisualizer {
+    position: absolute;
+    /*display: none;*/
+    top: 2px;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    z-index: 1000;
+	margin: 0;
+	padding: 0;
+    pointer-events: none;
+    /*background-color: yellow;*/
+    border-radius: 4px 4px 0 0;
+}
+
+#MCD_audioMuteVisualizer.active {
+    display: block;
+}
+
+.klayer-ns #MCD_audioMuteVisualizer  {
+	top: -6px;
+}
+
+
+.MCD_audioMuteMarker {
+    position: absolute;
+    /*box-sizing: border-box;*/
+    height: 100%;
+	border-style: solid;
+	border-width: 6px 3px 0 3px;
+	border-color: red transparent transparent transparent;
+	z-index: 1;
+}
+
+
+
+
+#MCD_videoMuteVisualizer {
+    position: absolute;
+    display: none;
+    top: -8px;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    z-index: 1000;
+    pointer-events: none;
+    background-color: red;
+    border-radius: 4px 4px 0 0;
+}
+
+#MCD_videoMuteVisualizer.active {
+    display: block;
+}
+
+
+.MCD_videoMuteMarker {
+    position: absolute;
+    /*box-sizing: border-box;*/
+    height: 100%;
+	border-style: solid;
+	border-width: 0 3px 6px 3px;
+	border-color: yellow transparent transparent transparent;
+	z-index: 1;
+}

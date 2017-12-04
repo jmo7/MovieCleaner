@@ -1,0 +1,65 @@
+{
+	"creation_date": "2014-12-24T21:52:58.973Z",
+	"title": "DrWhoS4E16 Planet of the Dead",
+	"filename": "DrWhoS4E16 Planet of the Dead",
+	"url": "http://www.netflix.com/WiPlayer?movieid=70128895&trkid=13462100&tctx=-99%2C-99%2C6a269740-e665-4d0a-89d6-8c76824834cc-40119141#trackId=13589538&episodeId=70267270",
+	"profanity_list": [
+		{
+			"start": 214.214096,
+			"stop": -1,
+			"type": "bad",
+			"text": "h...o, i'm the doctor.happy easter!"
+		},
+		{
+			"start": 214.214096,
+			"stop": 220.204814,
+			"type": "bad",
+			"text": "h...o, i'm the doctor.happy easter!"
+		},
+		{
+			"start": 1397.327403,
+			"stop": -1,
+			"type": "bad",
+			"text": "-h...o, doctor.oh, my goodness!-yes, i am. hello, malcolm!"
+		},
+		{
+			"start": 1397.327403,
+			"stop": -1,
+			"type": "bad",
+			"text": "-h...o, doctor.oh, my goodness!-yes, i am. hello, malcolm!"
+		},
+		{
+			"start": 1397.327403,
+			"stop": 1399.835145,
+			"type": "bad",
+			"text": "-h...o, doctor.oh, my goodness!-yes, i am. hello, malcolm!"
+		},
+		{
+			"start": 2483.566218,
+			"stop": -1,
+			"type": "bad",
+			"text": "what the h... was that?is this place safe?"
+		},
+		{
+			"start": 2483.566218,
+			"stop": 2490.810806,
+			"type": "bad",
+			"text": "what the h... was that?is this place safe?"
+		},
+		{
+			"start": 3204.124086,
+			"stop": -1,
+			"type": "bad",
+			"text": "better than a bus, any day!h...o!"
+		},
+		{
+			"start": 3204.124086,
+			"stop": 3211.229355,
+			"type": "bad",
+			"text": "better than a bus, any day!h...o!"
+		}
+	],
+	"violence_list": [],
+	"immorality_list": [],
+	"immodesty_list": []
+}

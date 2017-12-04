@@ -1,0 +1,126 @@
+{
+	"name": "MovieCleanerBeta",
+	"short_name": "MCBeta",
+	"version": "2.0",
+	"manifest_version": 2,
+	"key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0kPUMxkZyUQQWt3f6FBy7sEAHqTd5cyECu+TxAy4Q0rkbWOszTAGRpoiQVeyHLnnREiKtVRHDBEnZSFU00OqF/n5yOFdFQdgpkGH8l7XTkurI5lnE9OrCTntqnJYYrBTT9eCWZcXckdgABU0bmyUcN1AKinyeCRaUVkbf33Uzf5v4OxflaLd5umTY0EdGkiozJcusikMKk1wOAKoZjrgScH2uuZQVzl8/fNnS8OhgZnLYn8nb4k2sfMl7duUznkXzqMhPVGbqbrzkduuqPJnyQVrAuAr9nkTRinEGu97yl++opu0TUk+lXzhsnhrZ38upW0NWsOc3x7TJH6wEC7kOQIDAQAB",
+	"content_security_policy": "script-src 'self'; object-src 'self'; media-src 'self'",
+	"description": "This extension mutes bad words in videos from Netflix, Amazon Prime, and Amazon Streaming Video Library",
+	"homepage_url": "https://movie-cleaner.com",
+	"icons": {
+		"16": "icons/MCLogoBeta16.png",
+		"19": "icons/MCLogoBeta19.png",
+		"38": "icons/MCLogoBeta38.png",
+		"48": "icons/MCLogoBeta48.png",
+		"128": "icons/MCLogoBeta128.png"
+	},
+	"default_locale": "en",
+	"permissions": [
+		"tabs",
+		"storage",
+		"webRequest",
+		"identity",
+    	"https://www.googleapis.com/",
+		"*://*.netflix.com/*",
+		"*://*.amazon.com/gp/product/*",
+		"*://*.amazon.com/gp/video/*",
+		"*://*.amazon.com/dp/*",
+		"*://*.amazon.com/Trailer/gp/*",
+		"*://*.amazon.com/Trailer/dp/*",
+		"*://*.amazon.com/*s=instant-video*",
+		"*://*/*"
+	],
+	"oauth2": {
+		"client_id": "136650134495-71qt0p50hh3onfcm9riv7ojkqv8pvp9a.apps.googleusercontent.com",
+		"scopes": [
+			"https://www.googleapis.com/auth/chromewebstore.readonly"
+		]
+	},
+	"web_accessible_resources": [
+		"icons/*.png",
+		"icons/*.svg",
+		"fonts/*.woff",
+		"fonts/*.woff2",
+		"contentoptions.html"
+	],
+
+	"background": {
+		"scripts": [
+			"scripts/shared/classes/Settings.js",
+			"scripts/background/MCb.js",
+			"scripts/background/polyfills.js",
+			"scripts/background/background.js"
+		],
+		"persistent": true
+	},
+
+	"options_ui": {
+		"page": "options.html",
+		"chrome_style": true
+	},
+
+	"browser_action": {
+		"default_icon": "icons/MCLogoBeta38.png",
+		"default_title": "MovieCleanerBeta"
+	},
+
+	"content_scripts": [
+		{
+			"matches": [
+				"*://*.netflix.com/watch/*",
+				"*://*.amazon.com/gp/product/*",
+				"*://*.amazon.com/gp/video/*",
+				"*://*.amazon.com/dp/*",
+				"*://*.amazon.com/Trailer/gp/*",
+				"*://*.amazon.com/Trailer/dp/*",
+				"*://*.amazon.com/*s=instant-video*"
+			],
+			"css": [
+				"styles/content.css",
+				"styles/contentleveldebugger.css"
+			],
+			"js": [
+				"scripts/shared/classes/Settings.js",
+				"scripts/content/classes/sitespecific/AmazonSpecifics.js",
+				"scripts/content/classes/sitespecific/HuluSpecifics.js",
+				"scripts/content/classes/sitespecific/NetflixSpecifics.js",
+				"scripts/content/classes/sitespecific/VuduSpecifics.js",
+				"scripts/content/classes/sitespecific/YoutubeSpecifics.js",
+				"scripts/content/classes/Authorizer.js",
+				"scripts/content/classes/Config.js",
+				"scripts/content/classes/ControlDialog.js",
+				"scripts/content/classes/EDLLoader.js",
+				"scripts/content/classes/Filter.js",
+				"scripts/content/classes/LogoShower.js",
+				"scripts/content/classes/MediaMuter.js",
+				"scripts/content/classes/Message.js",
+				"scripts/content/classes/MessageList.js",
+				"scripts/content/classes/WordsToMute.js",
+				"scripts/content/classes/ProgressShower.js",
+				"scripts/content/classes/ScreenMuter.js",
+				"scripts/content/classes/ScreenShade.js",
+				"scripts/content/classes/TimeShower.js",
+				"scripts/content/classes/VideoController.js",
+				"scripts/content/debugger/MuteVisualizer.js",
+				"scripts/content/MCc.js",
+				"scripts/content/content.js",
+
+				"scripts/content/debugger/DebugInfo.js",
+				"scripts/content/debugger/Dashboard.js",
+				"scripts/content/debugger/Debugger.js"
+
+			],
+			"permissions": [
+				"tabs",
+				"webRequest",
+				"*://*.netflix.com/*",
+				"*://*.amazon.com/gp/product/*",
+				"*://*.amazon.com/gp/video/*",
+				"*://*.amazon.com/dp/*",
+				"*://*.amazon.com/Trailer/gp/*",
+				"*://*.amazon.com/Trailer/dp/*",
+				"*://*.amazon.com/*s=instant-video*"
+			]
+		}
+	]
+}

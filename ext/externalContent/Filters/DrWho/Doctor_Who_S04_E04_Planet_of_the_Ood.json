@@ -1,0 +1,305 @@
+{
+	"creation_date": "2014-12-24T22:23:53.235Z",
+	"title": "DrWhoS4E4 Planet of the Ood",
+	"filename": "Doctor_Who_S04_E04_Planet_of_the_Ood.json",
+	"url": "http://www.netflix.com/WiPlayer?movieid=70174742&trkid=13462100&tctx=-99%2C-99%2Cc98b60ee-adbf-4840-a8d9-9eb3d73e4389-331307#trackId=13589538&episodeId=70128885",
+	"profanity_list": [
+		{
+			"start": 11.610284,
+			"stop": 13.282112,
+			"type": "bad",
+			"text": "susie says h...o. don´t you, sweetheart?"
+		},
+		{
+			"start": 19.13351,
+			"stop": 25.263546,
+			"type": "bad",
+			"text": "um, uncle soon called in. he says h...o."
+		},
+		{
+			"start": 210.977141,
+			"stop": 216.967858,
+			"type": "bad",
+			"text": "what the h...?"
+		},
+		{
+			"start": 1142.603314,
+			"stop": 1148.594031,
+			"type": "bad",
+			"text": "h...o."
+		},
+		{
+			"start": 2187.774452,
+			"stop": 2193.765169,
+			"type": "bad",
+			"text": "what the h...´s that noise?"
+		},
+		{
+			"start": 2392.016106,
+			"stop": 2398.006823,
+			"type": "bad",
+			"text": "what the h... has that got to do with it?"
+		},
+		{
+			"start": 3118.982648,
+			"stop": 3124.973365,
+			"type": "bad",
+			"text": "oh, m..., action 5."
+		},
+		{
+			"start": 2656.301756,
+			"stop": 2660.759964,
+			"type": "bad",
+			"text": "who the h... is he?what if he finds out?"
+		},
+		{
+			"start": 2907.075956,
+			"stop": 2909.862336,
+			"type": "bad",
+			"text": "-nice gate!-h...o!"
+		},
+		{
+			"start": 2925.048107,
+			"stop": 2927.555849,
+			"type": "bad",
+			"text": "oh, m.... she's a cactus."
+		},
+		{
+			"start": 128.03588,
+			"stop": 133.95789,
+			"type": "bad",
+			"text": "disappeared,m... president."
+		},
+		{
+			"start": 257.534661,
+			"stop": 265.615163,
+			"type": "bad",
+			"text": "one word keepsbeing repeated, m...,one constant word."
+		},
+		{
+			"start": 828.929368,
+			"stop": 829.208006,
+			"type": "bad",
+			"text": "g... bless the cactuses!"
+		},
+		{
+			"start": 2329.110647,
+			"stop": 2333.986812,
+			"type": "bad",
+			"text": "m... doctor..."
+		},
+		{
+			"start": 2830.798366,
+			"stop": 2833.724065,
+			"type": "bad",
+			"text": "back intothe time war, rassilon!back into h...!"
+		},
+		{
+			"start": 3270.48913,
+			"stop": 3272.300277,
+			"type": "bad",
+			"text": "mind you, you're in a h... ofa state. you've got somebattle scars there."
+		},
+		{
+			"start": 693.483095,
+			"stop": 697.384027,
+			"type": "bad",
+			"text": "now, human beings worship the great g... santa --"
+		},
+		{
+			"start": 852.525805,
+			"stop": 858.516522,
+			"type": "bad",
+			"text": "-may g... bless her. -...the skies over the earth."
+		},
+		{
+			"start": 1462.603706,
+			"stop": 1470.266251,
+			"type": "bad",
+			"text": "oh, h...o, sailor. good to hear you."
+		},
+		{
+			"start": 1998.42458,
+			"stop": 2005.251211,
+			"type": "bad",
+			"text": "rickston, vot d... it, help me."
+		},
+		{
+			"start": 3104.338803,
+			"stop": 3107.961097,
+			"type": "bad",
+			"text": "i´m the doctor. h...o."
+		},
+		{
+			"start": 1349.254128,
+			"stop": 1355.244845,
+			"type": "bad",
+			"text": "what the h... is that?!"
+		},
+		{
+			"start": 1481.32854,
+			"stop": 1487.319257,
+			"type": "bad",
+			"text": "oh, m...! i don´t believe it!"
+		},
+		{
+			"start": 1684.455642,
+			"stop": 1690.446359,
+			"type": "bad",
+			"text": "what the h... is going on?!"
+		},
+		{
+			"start": 2098.651029,
+			"stop": 2104.502427,
+			"type": "bad",
+			"text": "oh, m...! suzette."
+		},
+		{
+			"start": 2128.604614,
+			"stop": 2133.202141,
+			"type": "bad",
+			"text": "oh, m...! aah! oh, my g...!"
+		},
+		{
+			"start": 2869.224418,
+			"stop": 2874.239902,
+			"type": "bad",
+			"text": "-we are building the future, as dictated by the g...s. -[ muffled screaming ]"
+		},
+		{
+			"start": 19.358662,
+			"stop": 23.120275,
+			"type": "bad",
+			"text": "oh, m.... it´s -- it´s so roman!"
+		},
+		{
+			"start": 322.705652,
+			"stop": 327.16386,
+			"type": "bad",
+			"text": "you apologize to the household g...s."
+		},
+		{
+			"start": 327.16386,
+			"stop": 328.696369,
+			"type": "bad",
+			"text": "apologize right now. the g...s are always watching."
+		},
+		{
+			"start": 589.255281,
+			"stop": 592.301116,
+			"type": "bad",
+			"text": "the g...s approve."
+		},
+		{
+			"start": 640.366171,
+			"stop": 646.356888,
+			"type": "bad",
+			"text": "by the g...s of commerce, an inspection."
+		},
+		{
+			"start": 688.284016,
+			"stop": 694.414052,
+			"type": "bad",
+			"text": "we haven´t even greeted the household g...s yet."
+		},
+		{
+			"start": 797.78875,
+			"stop": 800.017854,
+			"type": "bad",
+			"text": "m... lucius was very specific."
+		},
+		{
+			"start": 964.692912,
+			"stop": 969.569077,
+			"type": "bad",
+			"text": "but when the g...s speak through her..."
+		},
+		{
+			"start": 1030.730118,
+			"stop": 1036.720835,
+			"type": "bad",
+			"text": "they say the g...s of the underworld are stirring."
+		},
+		{
+			"start": 1162.712967,
+			"stop": 1168.703684,
+			"type": "bad",
+			"text": "doctor, we are building the future, as dictated by the g...s."
+		},
+		{
+			"start": 1174.694401,
+			"stop": 1178.038057,
+			"type": "bad",
+			"text": "what do you think? the g...dess venus."
+		},
+		{
+			"start": 1644.869768,
+			"stop": 1649.188657,
+			"type": "bad",
+			"text": "oh, m.... what´s happened to you?"
+		},
+		{
+			"start": 1763.255544,
+			"stop": 1769.246261,
+			"type": "bad",
+			"text": "we fell from the h...."
+		},
+		{
+			"start": 1871.506407,
+			"stop": 1877.497124,
+			"type": "bad",
+			"text": "we killed a messenger of the g...s in our own house."
+		},
+		{
+			"start": 1974.323829,
+			"stop": 1979.617951,
+			"type": "bad",
+			"text": "and show unto us, i beseech you, the g...s of the underworld."
+		},
+		{
+			"start": 2099.71882,
+			"stop": 2105.570218,
+			"type": "bad",
+			"text": "but if i might beg the wisdom of the g...s before we perish,"
+		},
+		{
+			"start": 2152.520721,
+			"stop": 2155.585739,
+			"type": "bad",
+			"text": "you have them, m...s!"
+		},
+		{
+			"start": 2424.177125,
+			"stop": 2428.078057,
+			"type": "bad",
+			"text": "g...s save us, doctor!"
+		},
+		{
+			"start": 2664.350428,
+			"stop": 2670.341145,
+			"type": "bad",
+			"text": "the great g... vulcan must be enraged."
+		},
+		{
+			"start": 2808.509403,
+			"stop": 2814.50012,
+			"type": "bad",
+			"text": "give thanks to the household g...s before you go."
+		},
+		{
+			"start": 2820.490837,
+			"stop": 2826.481554,
+			"type": "bad",
+			"text": "thank you, household g...s."
+		},
+		{
+			"start": 2285.973788,
+			"stop": 2286.809702,
+			"type": "bad",
+			"text": "what the h... does that mean?!"
+		}
+	],
+	"violence_list": [],
+	"immorality_list": [],
+	"immodesty_list": []
+}

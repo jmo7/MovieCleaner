@@ -1,0 +1,393 @@
+@font-face {
+    font-family: "IconFont";
+    src: url("chrome-extension://__MSG_@@extension_id__/fonts/iconfont.woff") format('woff');
+    src: url("chrome-extension://__MSG_@@extension_id__/fonts/iconfont.woff2") format('woff2');
+}
+
+
+html, body {
+	font-family: "sans";
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	position: relative;
+	max-width: 650px;
+	width: 450px;
+	overflow: hidden;
+}
+
+#vsSettings {
+	height: 83vmin;
+	/*max-height: 400px;*/
+	overflow: auto;
+	border-bottom: 1px #ddd solid;
+	padding: 10px 10px 0 10px;
+}
+
+footer {
+
+	width: 100%;
+	background-color: white	;
+	height: 8.5vmin;
+	border-top: 1px #ddd solid;
+}
+.setting {
+	display: block;
+}
+
+fieldset {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.categoryControls {
+	 position: relative;
+	 border: none;
+ }
+
+.categoryControls button[type=submit][data-grouptype] {
+	position: absolute;
+	right: 0;
+}
+
+.categoryControls button[type=submit][data-grouptype].inactive {
+	display: none;
+}
+
+.categoryControls input[type='checkbox'], .setting input[type='checkbox'] {
+	margin-right: .5em;
+}
+
+.muteWordListControl {
+	display: block;
+	margin-top: 1em;
+	border: none;
+}
+
+.muteWordListControl.inactive {
+	display: none;
+}
+
+
+.muteWordListControl .muteWordList {
+	display: inline-block;
+	height: 6em;
+	width: 54%;
+	min-width: 210px;
+	border: 1px #bbb solid;
+	margin: 0 0 0.5em 0;
+	overflow: auto;
+	/*margin-right: 2em;*/
+}
+
+.muteWordListControl .muteWordList input {
+	border: none;
+}
+
+.muteWordListControl .muteWordList input.selected {
+	background-color: orange;
+}
+
+.muteWordListControl button {
+	font-family: IconFont, sans-serif;
+	font-size: 150%;
+	line-height: 15px;
+	padding: 0;
+	background-color: transparent;
+	width: 20px !important;
+	min-width: 20px !important;
+	height: 20px !important;
+	min-height: 20px !important;
+}
+
+
+.muteWordListControl .muteWordListControlFeedback {
+	display: inline-block;
+	height: 6em;
+	width: 39%;
+	min-width: 120px;
+	margin: 0 0 0.5em 1.5em;
+	overflow: auto;
+	color: maroon;
+}
+
+
+.muteWordListControl ul.explanation {
+	list-style: none;
+	margin-left: 0;
+	padding: 5px 12px;
+	border: 1px gray dotted;
+
+}
+
+.muteWordListControl ul.explanation li {
+	margin-bottom: .5em;
+}
+
+.muteWordListControl .pseudobtn {
+	position: relative;
+	display: inline-block;
+	border: 1px gray solid;
+	border-radius: 1px;
+	width: 1em;
+	text-align: center;
+	line-height: 110%;
+}
+
+
+
+#additional {
+	padding-bottom: 3em;
+	border-bottom: 1px black solid;
+}
+
+
+.fudgeFactorControls {
+	margin: 3em 0;
+	border: none;
+	width: 100%;
+}
+
+
+.fudgeFactorControls .rangeholder {
+	position: relative;
+	display: inline-block;
+	margin-top: 0.8em;
+	margin-left: 80px;
+	width: 180px;
+}
+
+.fudgeFactorControls .rangeholder:first-of-type {
+	margin-right: 100px;
+	margin-bottom: 2em;
+}
+
+
+.fudgeFactorControls label.setting {
+	position: absolute;
+	top: 40%;
+	margin-left: -58%;
+	width: 50%;
+	text-align: right;
+
+
+}
+
+label.rangevalues {
+	display: flex;
+	position: relative;
+	top: 0;
+	justify-content: space-between;
+}
+
+label.rangevalues[for=fudgeFactorDuration] span:nth-of-type(3){
+	margin: 0 -1.2em;
+}
+
+.rangeholder {
+	display: block;
+	position: relative;
+	padding-bottom: 0.4em;
+}
+
+
+.rangeholder:before,  .rangeholder:after{
+	display: block;
+	position: absolute;
+	bottom: 0;
+	width: 50%;
+	height: 1.4em;
+	color: gray;
+	padding: 0 3px;
+}
+
+.rangeholder:first-of-type::before {
+	content: 'earlier';
+	background: linear-gradient(to right, rgba(172,230,248,1) 0%, rgba(255,255,255,1) 80%);
+	margin-left: 2px;
+}
+
+.rangeholder:first-of-type::after {
+	content: 'later';
+	background: linear-gradient(to right, rgba(255,255,255,1) 20%, rgba(248,213,172,1) 100% );
+	right: -2px;
+	text-align: right;
+}
+
+.rangeholder:last-of-type::before {
+	content: 'shorter';
+	background: linear-gradient(to right, rgba(172,230,248,1) 0%, rgba(255,255,255,1) 80%);
+	margin-left: 2px;
+}
+
+.rangeholder:last-of-type::after {
+	content: 'longer';
+	background: linear-gradient(to right, rgba(255,255,255,1) 20%, rgba(248,213,172,1) 100% );
+	right: -2px;
+	text-align: right;
+}
+
+
+.fudgeFactorControls input[type=range]  {
+	position:relative;
+	display: inline;
+	width: 100%;
+	z-index: 10;
+
+}
+
+
+
+.logoInfo {
+	padding: 2em 0 5em 0;
+	margin-bottom: 2em;
+	border: none;
+	border-top: 1px black solid;
+}
+
+.logoInfo .setting {
+	margin-top: 1em;
+}
+
+#logoSize {
+	margin-left: 1em;
+}
+
+.logoPosition {
+	position: relative;
+	top: 1em;
+	width: 90px;
+	height: 60px;
+	border: 1px gray solid;
+	padding: 0;
+	margin: 20em 0 0 160px;
+}
+
+.logoPosition::before {
+	position: absolute;
+	display: block;
+	content: "screen";
+	top: 34%;
+	width: 100%;
+	text-align: center;
+	color: gray;
+}
+
+.logoPosition legend {
+	position: absolute;
+	left: -162px;
+	top: 25px;
+}
+
+.logoPosition label {
+	position: absolute;
+	color: gray;
+}
+
+.logoPosition label[for=topleft] {
+	top: -10px;
+	left: 0px;
+	width: 95px;
+	margin-left: -100px;
+	text-align: right;
+}
+
+.logoPosition label[for=topright] {
+	top: -10px;
+	left: 100%;
+	width: 95px;
+	margin-left: 5px;
+}
+
+.logoPosition label[for=bottomleft] {
+	bottom: -10px;
+	left: 0;
+	width: 95px;
+	margin-left: -100px;
+	text-align: right;
+}
+
+.logoPosition label[for=bottomright] {
+	bottom: -10px;
+	left: 100%;
+	width: 95px;
+	margin-left: 5px;
+}
+
+.logoPosition input {
+	position: absolute;
+}
+
+#topleft {
+	top: 3px;
+	left: 3px;
+}
+
+#topright {
+	top: 3px;
+	right: 3px;
+}
+
+#bottomleft {
+	bottom: 3px;
+	left: 3px;
+}
+
+#bottomright {
+	bottom: 3px;
+	right: 3px;
+}
+
+
+
+.debugging {
+   padding: 2em 0 5em 0;
+   margin: 4em 0 2em 0;
+   border: none;
+   border-top: 1px black solid;
+}
+
+
+
+
+
+#disableFromIcon {
+	margin-top: 1.5em;
+	vertical-align: baseline;
+}
+
+
+#saveBtn {
+	margin: 0.75em 0 0.75em 1em;
+}
+
+
+#resetBtn {
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+
+	background: none;
+	border: none;
+	font-size: 90%;
+	color: blue;
+	cursor: pointer;
+	box-shadow: none;
+}
+
+
+#status {
+	display: none;
+	position: relative;
+
+	height: 1em;
+	padding: 5px;
+	margin: 7px 10px;
+
+	color: maroon;
+	font-size: 110%;
+	border: 1px lime dotted;
+}

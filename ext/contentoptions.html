@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>MovieCleaner Options</title>
+  <link rel="stylesheet" href="styles/options.css">
+</head>
+
+<body>
+    <div id="vsSettings">
+        <fieldset id="diety" class="categoryControls">
+            <label class="categoryToggle"><input type="checkbox" value="checked"/>Mute Diety</label>
+            <button type="submit" data-grouptype="diety">Show List</button>
+            <fieldset class="muteWordListControl inactive">
+                <div class="muteWordList"></div>
+                <div class="muteWordListControlFeedback"></div>
+                <button title="Add a new word to the list. If an existing word in the list has been selected, the space for the new word will be added right below it. If no word is selected, the space for the new word will be added to the end of the list.">+</button>
+                <button title="Remove the selected word from the list." disabled="disabled">‒</button>
+                <button title="Move the selected word higher in the list." disabled="disabled">⬆</button>
+                <button title="Move the selected word further down in the list." disabled="disabled">⬇</button>
+                <ul class="explanation">
+                    <li>To add a word or phrase to the list to be muted, click the <span class="pseudobtn">+</span> button above, and then type the word in the new highlighted space that is created.</li>
+                    <li>To remove an item from the list, click the item and then push the <span class="pseudobtn">‒</span> button.</li>
+                    <li>To rearrange the order of the list, click an item and then push the <span class="pseudobtn">⬆</span> or <span class="pseudobtn">⬇</span> button to change it's position in the list.</li>
+                </ul>
+            </fieldset>
+        </fieldset>
+
+        <fieldset id="profanity" class="categoryControls">
+            <label class="categoryToggle"><input type="checkbox" value="checked"/>Mute Profanity</label>
+            <button type="submit" data-grouptype="profanity">Show List</button>
+            <fieldset class="muteWordListControl inactive">
+                <div class="muteWordList"></div>
+                <div class="muteWordListControlFeedback"></div>
+                <button title="Add a new word to the list. If an existing word in the list has been selected, the space for the new word will be added right below it. If no word is selected, the space for the new word will be added to the end of the list.">+</button>
+                <button title="Remove the selected word from the list." disabled="disabled">‒</button>
+                <button title="Move the selected word higher in the list." disabled="disabled">⬆</button>
+                <button title="Move the selected word further down in the list." disabled="disabled">⬇</button>
+                <ul class="explanation">
+                    <li>To add a word or phrase to the list to be muted, click the <span class="pseudobtn">+</span> button above, and then type the word in the new highlighted space that is created.</li>
+                    <li>To remove an item from the list, click the item and then push the <span class="pseudobtn">‒</span> button.</li>
+                    <li>To rearrange the order of the list, click an itemt and then push the <span class="pseudobtn">⬆</span> or <span class="pseudobtn">⬇</span> button to change it's position in the list.</li>
+                </ul>
+            </fieldset>
+        </fieldset>
+
+        <fieldset id="explicit" class="categoryControls">
+            <label class="categoryToggle"><input type="checkbox" value="checked"/>Mute Explicit terms</label>
+            <button type="submit" data-grouptype="explicit">Show List</button>
+            <fieldset class="muteWordListControl inactive">
+                <div class="muteWordList"></div>
+                <div class="muteWordListControlFeedback"></div>
+                <button title="Add a new word to the list. If an existing word in the list has been selected, the space for the new word will be added right below it. If no word is selected, the space for the new word will be added to the end of the list.">+</button>
+                <button title="Remove the selected word from the list." disabled="disabled">‒</button>
+                <button title="Move the selected word higher in the list." disabled="disabled">⬆</button>
+                <button title="Move the selected word further down in the list." disabled="disabled">⬇</button>
+                <ul class="explanation">
+                    <li>To add a word or phrase to the list to be muted, click the <span class="pseudobtn">+</span> button above, and then type the word in the new highlighted space that is created.</li>
+                    <li>To remove an item from the list, click the item and then push the <span class="pseudobtn">‒</span> button.</li>
+                    <li>To rearrange the order of the list, click an item and then push the <span class="pseudobtn">⬆</span> or <span class="pseudobtn">⬇</span> button to change it's position in the list.</li>
+                </ul>
+            </fieldset>
+        </fieldset>
+
+        <fieldset id="racism" class="categoryControls">
+            <label class="categoryToggle"><input type="checkbox" value="checked"/>Mute Racist terms</label>
+            <button type="submit" data-grouptype="racism">Show List</button>
+            <fieldset class="muteWordListControl inactive">
+                <div class="muteWordList"></div>
+                <div class="muteWordListControlFeedback"></div>
+                <button title="Add a new word to the list. If an existing word in the list has been selected, the space for the new word will be added right below it. If no word is selected, the space for the new word will be added to the end of the list.">+</button>
+                <button title="Remove the selected word from the list." disabled="disabled">‒</button>
+                <button title="Move the selected word higher in the list." disabled="disabled">⬆</button>
+                <button title="Move the selected word further down in the list." disabled="disabled">⬇</button>
+                <ul class="explanation">
+                    <li>To add a word or phrase to the list to be muted, click the <span class="pseudobtn">+</span> button above, and then type the word in the new highlighted space that is created.</li>
+                    <li>To remove an item from the list, click the item and then push the <span class="pseudobtn">‒</span> button.</li>
+                    <li>To rearrange the order of the list, click an item and then push the <span class="pseudobtn">⬆</span> or <span class="pseudobtn">⬇</span> button to change it's position in the list.</li>
+                </ul>
+            </fieldset>
+        </fieldset>
+
+        <fieldset id="additional" class="categoryControls">
+            <label class="categoryToggle"><input type="checkbox" value="checked"/>Mute Additional</label>
+            <button type="submit" data-grouptype="additional">Show List</button>
+            <fieldset id="additionalMuteWordList" class="muteWordListControl inactive">
+                <div class="muteWordList"></div>
+                <div class="muteWordListControlFeedback"></div>
+                <button title="Add a new word to the list. If an existing word in the list has been selected, the space for the new word will be added right below it. If no word is selected, the space for the new word will be added to the end of the list.">+</button>
+                <button title="Remove the selected word from the list." disabled="disabled">‒</button>
+                <button title="Move the selected word higher in the list." disabled="disabled">⬆</button>
+                <button title="Move the selected word further down in the list." disabled="disabled">⬇</button>
+                <ul class="explanation">
+                    <li>To add a word or phrase to the list to be muted, click the <span class="pseudobtn">+</span> button above, and then type the word in the new highlighted space that is created.</li>
+                    <li>To remove an item from the list, click the item and then push the <span class="pseudobtn">‒</span> button.</li>
+                    <li>To rearrange the order of the list, click an item and then push the <span class="pseudobtn">⬆</span> or <span class="pseudobtn">⬇</span> button to change it's position in the list.</li>
+                </ul>
+            </fieldset>
+        </fieldset>
+
+        <fieldset class="fudgeFactorControls">
+            <legend>Sometimes the timing information contained in the Closed Caption files is off slightly. Using the first slider below, you can tell MovieCleaner to start its mute a small amount of time before or after what the Closed Caption file says. Using the second slider you can change the length of time that MovieCleaner will mute the video. The numbering above the sliders is in seconds.</legend>
+            <div class="rangeholder">
+                <label for="fudgeFactorStart" class="rangevalues"><span>-2</span><span>-1</span><span>0</span><span>1</span><span>2</span></label><label class="setting" for="fudgeFactorStart">Start &nbsp;</label><input type="range" id="fudgeFactorStart" min="-2" max="2" step="0.25"/>
+            </div>
+            <div class="rangeholder">
+                <label for="fudgeFactorDuration" class="rangevalues"><span>-2</span><span>-1</span><span>Normal</span><span>1</span><span>2</span></label><label class="setting" for="Duration">Duration  &nbsp;</label><input type="range" id="fudgeFactorDuration" min="-2" max="2" step="0.25"/>
+            </div>
+        </fieldset>
+
+        <fieldset class="logoInfo">
+            <label class="setting"><input type="checkbox" id="showlogo" value="checked"/>Show MC Logo on screen when content is muted</label>
+            <label class="setting">Logo size
+                <select id="logoSize" value="small">
+                    <option value="small">small</option>
+                    <option value="medium">medium</option>
+                    <option value="large">large</option>
+                </select>
+            </label>
+
+            <fieldset class="setting logoPosition">
+                <legend>Logo Position</legend>
+                <label for="topleft">Top Left</label><input type="radio" name="logoposition" id="topleft">
+                <input type="radio" name="logoposition" id="topright"><label for="topright">Top Right</label>
+                <label for="bottomleft">Bottom Left</label><input type="radio" name="logoposition" id="bottomleft">
+                <input type="radio" name="logoposition" id="bottomright"><label for="bottomright">Bottom Right</label>
+            </fieldset>
+        </fieldset>
+    </div>
+    <footer>
+        <div id="status"></div>
+
+        <button id="saveBtn">Apply</button>
+        <button id="cancelBtn">Cancel</button>
+        <button id="resetBtn">Reset to Factory Default</button>
+    </footer>
+    <script src="scripts/contentoptions.js"></script>
+</body>
+</html>

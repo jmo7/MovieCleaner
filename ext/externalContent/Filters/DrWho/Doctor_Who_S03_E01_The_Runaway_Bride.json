@@ -1,0 +1,95 @@
+{
+	"creation_date": "2014-12-25T05:10:19.984Z",
+	"title": "DrWhoS3E1 The Runaway Bride",
+	"filename": "DrWhoS3E1 The Runaway Bride",
+	"url": "http://www.netflix.com/WiPlayer?movieid=70128888&trkid=13462100&tctx=-99%2C-99%2C20e4acc5-7303-4f8b-ba4e-80d17aa7c6fe-50572833#trackId=200257859&episodeId=70110266",
+	"profanity_list": [
+		{
+			"start": 127.784655,
+			"stop": 133.357415,
+			"type": "bad",
+			"text": "h...o, dad."
+		},
+		{
+			"start": 782.16601,
+			"stop": 787.042175,
+			"type": "bad",
+			"text": "i have an army and the breath of g... on my side, doctor."
+		},
+		{
+			"start": 88.978758,
+			"stop": 93.715604,
+			"type": "bad",
+			"text": "-what? -what the h... is this place?!"
+		},
+		{
+			"start": 156.687792,
+			"stop": 162.678509,
+			"type": "bad",
+			"text": "is it nerys? oh, m.... she´s finally got me back."
+		},
+		{
+			"start": 162.678509,
+			"stop": 168.669226,
+			"type": "bad",
+			"text": "-who the h... is nerys? -your best friend."
+		},
+		{
+			"start": 505.124617,
+			"stop": 506.517807,
+			"type": "bad",
+			"text": "oh, m.... have you got any money?"
+		},
+		{
+			"start": 573.808884,
+			"stop": 575.75935,
+			"type": "bad",
+			"text": "h...o? hello?"
+		},
+		{
+			"start": 694.459138,
+			"stop": 697.245518,
+			"type": "bad",
+			"text": "what the h... are you doing? i´m late for the wedding."
+		},
+		{
+			"start": 1228.190227,
+			"stop": 1231.812521,
+			"type": "bad",
+			"text": "h...o. i´m the doctor."
+		},
+		{
+			"start": 1424.072741,
+			"stop": 1428.252311,
+			"type": "bad",
+			"text": "oh, m.... it´s all my family."
+		},
+		{
+			"start": 1736.425939,
+			"stop": 1736.565258,
+			"type": "bad",
+			"text": "what the h... are we talking about?"
+		},
+		{
+			"start": 1868.500351,
+			"stop": 1871.565369,
+			"type": "bad",
+			"text": "what the h... are we gonna do?"
+		},
+		{
+			"start": 1963.515909,
+			"stop": 1970.899816,
+			"type": "bad",
+			"text": "oh, m...!"
+		},
+		{
+			"start": 2247.308712,
+			"stop": 2249.816454,
+			"type": "bad",
+			"text": "g..., she´s thick."
+		}
+	],
+	"violence_list": [],
+	"immorality_list": [],
+	"immodesty_list": []
+}

@@ -1,0 +1,26 @@
+{
+	"name": "moviecleaner",
+	"version": "1.0.0",
+	"description": "An extension to mute objectionable content in videos from online streaming services",
+	"main": "index.js",
+	"directories": {
+ 		"test": "test"
+	},
+	"scripts": {
+ 		"test": "echo \"Error: no tests specified\" && exit 1"
+	},
+	"repository": {
+ 		"type": "git",
+		"url": "git+https://gitlab.com/jmo7/movie-cleaner.git"
+	},
+	"author": "Jeff Moyes",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://gitlab.com/jmo7/movie-cleaner/issues"
+	},
+	"homepage": "https://gitlab.com/jmo7/movie-cleaner#README",
+	"devDependencies": {
+		"chai": "^3.4.1",
+		"mocha": "^2.3.3"
+	}
+}

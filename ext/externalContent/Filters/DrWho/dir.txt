@@ -1,0 +1,50 @@
+ Volume in drive D has no label.
+ Volume Serial Number is 1C5A-C631
+
+ Directory of D:\Users\Jeff\MovieCleaner\MovieCleaner\ext\externalContent\Filters\DrWho
+
+10/06/2015  07:23 AM    <DIR>          .
+10/06/2015  07:23 AM    <DIR>          ..
+10/06/2015  07:23 AM                 0 dir.txt
+12/24/2014  11:48 PM             2,085 DrWhoS3E1_The_Runaway_Bride.json
+12/25/2014  12:05 AM             2,604 DrWhoS3E2_Smith_and_Jones.json
+12/25/2014  12:14 AM             2,994 DrWhoS3E3_The_Shakespear_Code.json
+12/26/2014  02:04 PM             3,394 DrWhoS3E4 _Gridlock.json
+05/11/2015  08:59 AM               778 DrWhoS4E10_Forest_of_the_Dead.json
+12/24/2014  02:45 PM               970 DrWhoS4E11_Midnight.json
+12/24/2014  02:57 PM             1,513 DrWhoS4E12_Turn_Left.json
+12/24/2014  03:05 PM             2,148 DrWhoS4E13_The_Stolen_Earth.json
+12/24/2014  03:19 PM             2,471 DrWhoS4E14_Journeys_End.json
+12/24/2014  03:47 PM             3,352 DrWhoS4E15_The_Next_Doctor.json
+12/24/2014  04:03 PM             1,560 DrWhoS4E16_Planet_of_the_Dead.json
+12/24/2014  04:35 PM             1,212 DrWhoS4E17_The_Waters_of_Mars.json
+12/24/2014  05:02 PM             1,575 DrWhoS4E18_The_End_of_Time_Part_1.json
+12/24/2014  05:15 PM             2,343 DrWhoS4E19_The_End_of_Time_Part_2.json
+12/24/2014  07:45 PM             2,976 DrWhoS4E1_The_Voyage_of_the_Danged.json
+12/24/2014  07:54 PM             3,702 DrWhoS4E2_Partners_in_Crime.json
+12/24/2014  08:04 PM             6,408 DrWhoS4E3_The_Fires_of_Pompeii.json
+12/24/2014  09:51 PM             6,522 DrWhoS4E4_Planet_of_the_Ood.json
+12/24/2014  10:22 PM             7,375 DrWhoS4E5_The_Sontaran_Stratagem.json
+12/24/2014  10:31 PM             8,164 DrWhoS4E6_The_Poison_Sky.json
+12/24/2014  11:19 PM               615 DrWhoS4E7_The_Doctors_Daughter.json
+12/20/2014  12:33 PM               891 DrWhoS4E8_The_Unicorn_and_the_Wasp.json
+12/23/2014  08:29 PM               812 DrWhoS4E9_Silence_in_the_Library.json
+12/26/2014  10:12 PM            11,438 DrWhoS5E10_Vincent_and_the_Doctor.json
+12/26/2014  10:35 PM            12,935 DrWhoS5E11_The_Lodger.json
+12/27/2014  01:13 PM            13,398 DrWhoS5E12_The_Pandorica_Opens.json
+12/27/2014  01:28 PM            15,620 DrWhoS5E13_The_Big_Bang.json
+12/26/2014  02:46 PM             3,932 DrWhoS5E1_The_Eleventh_Hour.json
+12/26/2014  02:54 PM             4,793 DrWhoS5E2_The_Beast_Below.json
+12/26/2014  03:03 PM             5,156 DrWhoS5E3_Victory_of_the_Daleks.json
+12/27/2014  01:44 PM            16,581 DrWhoS5E4_A_Christmas_Carol.json
+12/26/2014  03:10 PM             5,634 DrWhoS5E4_The_Time_of_Angels.json
+12/26/2014  03:29 PM             6,639 DrWhoS5E5_Flesh_and_Blood.json
+12/26/2014  03:45 PM             8,246 DrWhoS5E6_The_Vampires_of_Venice.json
+12/26/2014  03:53 PM             9,419 DrWhoS5E7_Amys_Choice.json
+12/26/2014  04:00 PM             9,577 DrWhoS5E8_The_Hungry_Earth.json
+12/26/2014  10:04 PM            10,162 DrWhoS5E9_Cold_Blood.json
+12/27/2014  01:56 PM            18,006 DrWhoS6E1_The_Impossible_Astronaut.json
+12/27/2014  02:21 PM            18,891 DrWhoS6E2_Day_of_the_Moon.json
+12/27/2014  02:30 PM            19,330 DrWhoS6E3_The_Curse_of_the_Black_Spot.json
+              41 File(s)        256,221 bytes
+               2 Dir(s)  1,576,059,588,608 bytes free

@@ -1,0 +1,230 @@
+
+
+
+
+#MCD_Dashboard {
+    display: none;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    height: 280px;
+    width: 625px;
+    padding: 10px;
+    border: 2px black solid;
+    background-color: rgba(230, 230, 230, .95);
+    z-index: 5000;
+    font-size: 18px;
+    pointer-events: initial;
+}
+
+#MCD_Dashboard.active {
+    display: flex;
+    flex-direction: column;
+    align-content:space-between;
+    color: black;
+}
+
+
+#MCD_Dashboard .MCD_Title {
+    display: flex;
+
+    /*justify-content: space-between;*/
+    padding: 5px;
+    margin: -10px -10px 9px -10px;
+    font-size: 14px;
+    background-color: lightblue;
+	border-bottom: 1px #aebeca solid;
+}
+
+#MCD_Dashboard .MCD_TimingInfo {
+    margin: 0 5px 0 auto;
+}
+
+
+#MCD_Dashboard .MCD_Timer {
+    /*position: absolute;
+    top: 10px;
+    right: 53px;
+    height: 1.5em;
+    width: 60px;*/
+	display: inline-block;
+    padding: 0 3px;
+	min-width: 1.5em;
+    border: 1px red solid;
+    background-color: rgba(255,255,255,.4);
+    color: #000;
+	text-align: right;
+}
+
+
+#MCD_Dashboard .MCD_Duration {
+    /*position: absolute;
+    top: 10px;
+    right: 20px;*/
+    /*height: 1.5em;*/
+    /*width: 32px;*/
+    /*padding: 3px 0 0 5px;*/
+    color: #000;
+}
+
+
+#MCD_Dashboard .MCD_Closer {
+    margin-left: 20px;
+    cursor: pointer;
+    pointer-events: initial;
+}
+
+
+#VScDebug_btnRefresh {
+    position: absolute;
+    top: 10px;
+    left: 53px;
+    height: 1.5em;
+    width: 60px;
+    background-color: #ddd;
+    border: 2px #aaa outset;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+
+#VScDebug_btnSend {
+    position: absolute;
+    top: 10px;
+    left: 53px;
+    width: 60px;
+    background-color: #ddd;
+    border: 2px #aaa outset;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: center;
+}
+
+#MCD_Dashboard .MCD_Main {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#MCD_Dashboard section {
+    width: 45%;
+}
+
+#MCD_Dashboard section h4 {
+    font-size: 15px;
+}
+
+#MCD_Dashboard section:nth-of-type(1) {
+    position: static;
+    top: 50px;
+    left: 10px;
+}
+#MCD_Dashboard .MCD_MsgSpace {
+    height: 210px;
+    padding: 3px 20px 0 5px;
+    border: 1px green solid;
+    background-color: rgba(255,255,255,.4);
+    color: #000;
+    overflow-y: auto;
+    font-size: 50%;
+}
+
+#MCD_Dashboard .MCD_MsgSpace p {
+    margin: .5em 0;
+}
+
+#MCD_Dashboard .MCD_MsgSpace em {
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+#MCD_Dashboard section:nth-of-type(2) {
+    width: 45%;
+}
+
+
+#MCD_Dashboard .MCD_Settings {
+    padding: 6px;
+    background-color: rgba(255,255,255,.4);
+    border: 1px gray solid;
+}
+
+
+
+#MCD_Dashboard .MCD_SegmentInfo {
+    margin-bottom: 45px;
+}
+
+#MCD_Dashboard .MCD_SegmentInfo p {
+    font-size: 14px;
+}
+
+#MCD_Dashboard .MCD_ShowAudioSegments {
+    margin-top: 4px;
+}
+
+#MCD_Dashboard label {
+    color: black;
+    font-size: 14px;
+}
+
+#MCD_Dashboard label.disabled {
+    color: gray
+}
+
+#MCD_Dashboard label::after {
+    display: block;
+    content: "\a";
+}
+
+#MCD_Dashboard .MCD_TrialPeriod {
+    font-size: 14px;
+    width: 3em;
+    color: black;
+}
+
+
+#MCD_DebugInfoDiv {
+    display: none;
+    position: relative;
+    box-sizing: border-box;
+    height: 3em;
+	background-color: red;
+	align-items: center;
+
+	border-radius: 0 0 0 1.7vmin;
+}
+
+
+
+#MCD_DebugInfoDiv.active {
+    display: flex;
+
+}
+
+
+#MCD_DebugInfoDiv span {
+    display: inline-block;
+	color: #eeeeee;
+    font-weight: 900;
+    padding-left: 1em;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+#MCD_Trigger {
+	display: inline-block;
+    position: relative;
+    margin-left: 8vmin;
+    height: 2em;
+    cursor: pointer;
+    pointer-events: initial;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}

@@ -1,0 +1,23 @@
+{
+	"creation_date": "2014-12-25T05:10:19.984Z",
+	"title": "DrWhoS4E7 The Doctor's Daughter",
+	"filename": "DrWhoS4E7 The Doctor'_ Daughter",
+	"url": "http://www.netflix.com/WiPlayer?movieid=70128888&trkid=13462100&tctx=-99%2C-99%2C20e4acc5-7303-4f8b-ba4e-80d17aa7c6fe-50572833",
+	"profanity_list": [
+		{
+			"start": 127.784655,
+			"stop": 133.357415,
+			"type": "bad",
+			"text": "h...o, dad."
+		},
+		{
+			"start": 782.16601,
+			"stop": 787.042175,
+			"type": "bad",
+			"text": "i have an army and the breath of g... on my side, doctor."
+		}
+	],
+	"violence_list": [],
+	"immorality_list": [],
+	"immodesty_list": []
+}

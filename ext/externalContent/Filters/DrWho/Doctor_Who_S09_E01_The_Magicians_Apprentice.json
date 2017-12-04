@@ -1,0 +1,29 @@
+{
+	"creation_date": "2015-11-19T02:38:51.509Z",
+	"title": "Doctor Who S09 E01 “The Magicians Apprentice”",
+	"filename": "Doctor_Who_S09_E01_The_Magicians_Apprentice.json",
+	"url": "http://www.netflix.com/watch/80007244?trackId=200257859",
+	"profanity_list": [
+		{
+			"start": 779.767,
+			"stop": 781.333,
+			"type": "bad",
+			"text": "Oh, dear G..?"
+		},
+		{
+			"start": 881.267,
+			"stop": 882.267,
+			"type": "bad",
+			"text": "-What the h.. was that?"
+		},
+		{
+			"start": 1600.233,
+			"stop": 1602.700,
+			"type": "bad",
+			"text": "What the h... are you."
+		}
+	],
+	"violence_list": [],
+	"immorality_list": [],
+	"immodesty_list": []
+}
